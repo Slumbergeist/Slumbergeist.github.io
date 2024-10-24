@@ -1,9 +1,148 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
 
-<body>
-  <h1>Geisty</h1>
-  <p>Website Testing!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        
+        <title>HTML & CSS Cheat Sheet</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#html-section">HTML</a></li>
+                    <li><a href="#css-section">CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="centered">
+            <h1>HTML & CSS Cheat Sheet</h1>
 
+            <!-- About Section -->
+            <section id="about-section">
+                <h2>About</h2>
+                <p>For the time being, I am keeping track of HTML and CSS information that I am struggling with or just need reminders on occasionally. Things I feel comfortable with will not be included at this time.</p>
+            </section>
+
+            <!-- HTML Section-->
+            <section id="html-section">
+                <h2>HTML</h2>
+                <table class="html-table table-data">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <!-- Beginning of HTML Tag Entries -->
+                    <tbody>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;h1-6&gt;</a></td>
+                            <td>Used as headings and subheadings for a webpage.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">&lt;img&gt;</a></td>
+                            <td>Embeds an image into the webpage (src, alt)</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">&lt;link&gt;</a></td>
+                            <td>Self-closing. Links other files to this one (rel, href)</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/API/Comment" target="_blank">&lt;!-- --&gt;</a></td>
+                            <td>Comment formatting.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" target="_blank">&lt;tr&gt;</a></td>
+                            <td>Used within a &lt;table&gt; element. Adds a new row to the table. &lt;th&gt; and &lt;td&gt; are used within this.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" target="_blank">&lt;th&gt;</a></td>
+                            <td>Used within a &lt;table&gt; element. Defines a header for table rows or columns.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" target="_blank">&lt;td&gt;</a></td>
+                            <td>Used within a &lt;table&gt; element. Adds data to the table.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead" target="_blank">&lt;thead&gt;</a></td>
+                            <td>Used within a &lt;table&gt; element. Groups the header content in a table together.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" target="_blank">&lt;tbody&gt;</a></td>
+                            <td>Used within a &lt;table&gt; element. Groups the body content in a table together.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">&lt;main&gt;</a></td>
+                            <td>Specifies the main content of the document.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a></td>
+                            <td>Specifies a section with a specific topic.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;article&gt;</a></td>
+                            <td>Specifies information that can be standalone.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;aside&gt;</a></td>
+                            <td>Specifies content that is separate or a side-note to the main content of the page.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">&lt;figure&gt;</a></td>
+                            <td>Contains media content that can be grouped together with other information like &lt;figcaption&gt;</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">&lt;figcaption&gt;</a></td>
+                            <td>Used within a &lt;figcaption&gt; element. Specifies a caption to the corresponding media.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- CSS Section-->
+            <section id="css-section">
+                <h2>CSS</h2>
+                <table class="css-table table-data">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <!-- Beginning of CSS Property Entries -->
+                    <tbody>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color" target="_blank">color</a></td>
+                            <td>Defines text color. Use names, #HexCodes, hsla(), rgba()</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">display</a></td>
+                            <td>Defines how an element is displayed. Use inline, block, or inline-block</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">position</a></td>
+                            <td>Defines different ways for an element to be positioned. Frequently used in conjunction with other CSS properties like top, left, right, bottom to further specify. Use absolute, fixed, relative, sticky, static.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank">@font-face</a></td>
+                            <td>Allows you to create a "custom font" from local files. Specified as @font-face {font-family, src}</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow" target="_blank">overflow</a></td>
+                            <td>Defines how content reacts when overflowing its container. Use hidden, clip, scroll, auto, visible.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer class="centered">
+            <p>Made by Geisty (Oct. 2024)</p>
+        </footer>
+    </body>
 </html>
