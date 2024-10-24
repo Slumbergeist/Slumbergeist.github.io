@@ -6,15 +6,44 @@ body {
     font-family: 'Trebuchet MS';
 }
 
+main {
+    background-color: #0F0F0F;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
-main {
-    background-color: #0F0F0F;
-    padding-bottom: 20px;
-    padding-top: 70px;
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+header {
+    margin: 0 auto;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+th:first-child {
+    border-right: 1px solid white;
+}
+
+nav a:hover {
+    color: #e84855;
 }
 
 .centered {
@@ -63,35 +92,6 @@ td, th {
 .css-table td:first-child {
     text-align: center;
     border-right: 1px solid white;
-}
-
-ul li {
-    display: inline-block;
-    margin: 0 50px;
-}
-
-header {
-    margin: 0 auto;
-    background-color: black;
-    opacity: 0.5;
-    position: fixed;
-    width: 100%;
-}
-
-header:hover {
-    opacity: 1;
-}
-
-th:first-child {
-    border-right: 1px solid white;
-}
-
-nav a:hover {
-    color: #e84855;
-}
-
-ul {
-    text-align: center;
 }
 
 footer {
